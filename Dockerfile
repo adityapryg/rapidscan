@@ -44,4 +44,4 @@ ADD rapidscan.py /usr/local/bin/rapidscan.py
 WORKDIR /app
 ENTRYPOINT ["/usr/local/bin/rapidscan.py"]
 
-RUN cd /app && python3 rapidscan.py https://sisfo.bnsp.go.id
+RUN python3 -m pip install .
