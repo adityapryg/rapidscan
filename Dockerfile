@@ -13,6 +13,7 @@ RUN echo "deb http://old.kali.org/kali sana main non-free contrib" >> ./etc/apt/
 
 RUN apt-get -yq install \
       python3 \
+      python3-pip \
       host \
       whois \
       sslyze \
